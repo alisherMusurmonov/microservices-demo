@@ -1,0 +1,12 @@
+[submodule "microservices-client"]
+	path = microservices-client
+	url = https://github.com/alisherMusurmonov/microservices-client.git
+[submodule "microservices-users"]
+	path = microservices-users
+	url = https://github.com/alisherMusurmonov/microservices-users.git
+[submodule "microservices-gateway"]
+	path = microservices-gateway
+	url = https://github.com/alisherMusurmonov/microservices-gateway.git
+[submodule "microservices-documents"]
+	path = microservices-documents
+	url = https://github.com/alisherMusurmonov/microservices-documents.git
