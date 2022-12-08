@@ -1,0 +1,19 @@
+{
+  "name": "microservices-container",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "documents": "cd documents && git pull && yarn && yarn dev",
+    "users": "cd users && git pull && yarn && yarn dev",
+    "client": "cd client && git pull && yarn && yarn start",
+    "gateway": "cd gateway && git pull && yarn && yarn dev",
+    "dev": "\"yarn\" && concurrently  \"yarn documents\" \"yarn users\" \"yarn gateway\" \"yarn client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
